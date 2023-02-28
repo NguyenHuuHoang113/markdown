@@ -45,12 +45,12 @@
       <li> gõ "$ git checkout -"</li>
    
    >  NOTE : Cách này có thể dùng khi chỉ có 2 branch để dễ dàng chuyển sang cách branch dễ dàng hơn .
-   <!-- <br> hình ảnh  --> 
+   ![chuyển branch cách 1](/chuy%E1%BB%83n%20branch%20c%C3%A1ch%201.jpg)
   
      <li>gõ " $ git checkout (tên nhánh)*"</li>
   
      > NOTE : Cách này nên dùng khi có nhiều branch để tránh bị chuyển sang branch không phải branch mình cần . 
-   <!-- <br> hình ảnh  --> 
+   ![chuyển branch cách 2](/chuy%E1%BB%83n%20branch%20c%C3%A1ch%202.jpg)
    </ol>
    <ol>- Để kiểm tra các branch : gõ " $ git branch ":
     
@@ -58,7 +58,7 @@
    </ol>  
 
    <br> <ol>- Để xóa branch : gõ "$ git branch --delete (tên branch)"
-   <!-- <br> hình ảnh  --> 
+   ![Delete branch](/delete%20branch.jpg))
    
 
 
