@@ -14,10 +14,10 @@
       <br> 1 . Cần tạo foder trên máy tính của mình <br> ![Tạo foder!](/Screenshot%202023-02-27%20153230.png)
       <br>2 . Chúng ta vào foder và chạy foder bằng **gitbash** 
       ![Chạy foder bằng gitbash](/Screenshot%202023-02-27%20153255.png)
-      <br>3. Gõ $ git init để tạo một repo trống <br> ![Chạy init!](/Screenshot%202023-02-27%20154729.png)
+      <br>3. Gõ $ git init để tạo một repo trống <br> ![Chạy init!](/T%E1%BA%A1o%20README.mn.png)
 * Bạn cần tạo 1 file " **README.md** " <br>
    Cách dùng : bạn gõ " echo "#tên repo" >> README.md
-     <br> ![Tạo REAME.md!](/T%E1%BA%A1o%20README.mn.png)
+     <br> ![Tạo REAME.md!](/)
 * git clone : dùng để tạo quyền riêng tư cho repo của bạn , chỉ mình bạn có thể được xem và chỉnh sửa nó 
 
 ## Basic Snapshotting 
