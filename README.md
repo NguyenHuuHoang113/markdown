@@ -22,5 +22,7 @@
 
 ## Basic Snapshotting 
 * **git add** : Thêm file nội dung vào repo <br> For example : Ví dụ bạn add một hình ảnh vào foder 
+<oi>
+  <li> bạn cần phải 
 
 
