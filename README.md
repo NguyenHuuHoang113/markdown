@@ -37,3 +37,31 @@
 * **git reset** : chuyển repo quay trở lại lần trước đó và xóa những thay đổi phía sau vị trí bạn muốn reset
   <br> Cách dùng : gõ " *$ git reset* "
   <!-- <br> hình ảnh  -->
+## Branching and Merging
+* **git branch** (nhánh) : được tạo ra để tách ra một nhánh riêng biệt với nhánh chính , giúp cho người dùng có thể làm nhiều chức năng riêng biệt mà không ảnh hưởng đến nhánh chính .
+  <br> ***Cách dùng*** : gõ "**$ git checkout -b ( tên nhánh mới )** "
+  <br>![Tạo branch mới](/t%E1%BA%A1o%20th%C3%AAm%20branch%20.jpg)
+   <ol > - Bên cạnh đó để chuyển sang các nhánh có 2 cách dùng để chuyển sang :
+      <li> gõ "$ git checkout -"</li>
+   
+   >  NOTE : Cách này có thể dùng khi chỉ có 2 branch để dễ dàng chuyển sang cách branch dễ dàng hơn .
+   <!-- <br> hình ảnh  --> 
+  
+     <li>gõ " $ git checkout (tên nhánh)*"</li>
+  
+     > NOTE : Cách này nên dùng khi có nhiều branch để tránh bị chuyển sang branch không phải branch mình cần . 
+   <!-- <br> hình ảnh  --> 
+   </ol>
+   <ol>- Để kiểm tra các branch : gõ " $ git branch ":
+    
+   ![Kiểm tra cách branch](/Check%20branch.jpg)
+   </ol>  
+
+   <br> <ol>- Để xóa branch : gõ "$ git branch --delete (tên branch)"
+   <!-- <br> hình ảnh  --> 
+   
+
+
+   
+   
+   
