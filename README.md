@@ -57,10 +57,8 @@
 
    <br> - Bên cạnh đó để chuyển sang các nhánh có 2 cách dùng để chuyển sang :
    <br> gõ "$ git checkout -"
-   <div class="alert-warning">
-   **NOTE**:
-   <br> Cách này có thể dùng khi chỉ có 2 branch để dễ dàng chuyển sang cách branch dễ dàng hơn.
-   </div>
+   
+       >:memo: **NOTE:** Cách này có thể dùng khi chỉ có 2 branch để dễ dàng chuyển sang cách branch dễ dàng hơn.
    
    <br>![chuyển branch cách 1](/chuy%E1%BB%83n%20branch%20c%C3%A1ch%201.jpg)
   
@@ -127,7 +125,7 @@
    <br> Tương tự như hình : 
    <!-- <br> hình ảnh  -->
    4. **Git remote** : 
-
+    
 
 
 
