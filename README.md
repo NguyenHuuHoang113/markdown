@@ -52,15 +52,16 @@
 ***
 1. **Git branch** (nhánh) : được tạo ra để tách ra một nhánh riêng biệt với nhánh chính , giúp cho người dùng có thể làm nhiều chức năng riêng biệt mà không ảnh hưởng đến nhánh chính .
    <br> ***Cách dùng*** : gõ "**$ git checkout -b (new name branch )** "
-   <br>![Tạo branch mới](/t%E1%BA%A1o%20th%C3%AAm%20branch%20.jpg)
-<br> - Bên cạnh đó để chuyển sang các nhánh có 2 cách dùng để chuyển sang :
-   <br> gõ "$ git checkout -"
-   
-   <br> 
-   <$>[warning]
-    **NOTE**: Cách này có thể dùng khi chỉ có 2 branch để dễ dàng chuyển sang cách branch dễ dàng hơn.
-   <$>
 
+   <br>![Tạo branch mới](/t%E1%BA%A1o%20th%C3%AAm%20branch%20.jpg)
+
+   <br> - Bên cạnh đó để chuyển sang các nhánh có 2 cách dùng để chuyển sang :
+   <br> gõ "$ git checkout -"
+   <div class="alert-warning">
+   **NOTE**:
+   <br> Cách này có thể dùng khi chỉ có 2 branch để dễ dàng chuyển sang cách branch dễ dàng hơn.
+   </div>
+   
    <br>![chuyển branch cách 1](/chuy%E1%BB%83n%20branch%20c%C3%A1ch%201.jpg)
   
    gõ "$ git checkout (branch)"
