@@ -50,15 +50,16 @@
 
 ## **Branching and Merging**
 ***
- 1. **Git branch** (nhánh) : được tạo ra để tách ra một nhánh riêng biệt với nhánh chính , giúp cho người dùng có thể làm nhiều chức năng riêng biệt mà không ảnh hưởng đến nhánh chính .
-  <br> ***Cách dùng*** : gõ "**$ git checkout -b (new name branch )** "
-  <br>![Tạo branch mới](/t%E1%BA%A1o%20th%C3%AAm%20branch%20.jpg)
-   <ol > - Bên cạnh đó để chuyển sang các nhánh có 2 cách dùng để chuyển sang :
-   gõ "$ git checkout -"
+1. **Git branch** (nhánh) : được tạo ra để tách ra một nhánh riêng biệt với nhánh chính , giúp cho người dùng có thể làm nhiều chức năng riêng biệt mà không ảnh hưởng đến nhánh chính .
+   <br> ***Cách dùng*** : gõ "**$ git checkout -b (new name branch )** "
+   <br>![Tạo branch mới](/t%E1%BA%A1o%20th%C3%AAm%20branch%20.jpg)
+<br> - Bên cạnh đó để chuyển sang các nhánh có 2 cách dùng để chuyển sang :
+   <br> gõ "$ git checkout -"
    
-   <br>
-   
-   >  NOTE : Cách này có thể dùng khi chỉ có 2 branch để dễ dàng chuyển sang cách branch dễ dàng hơn .
+   <br> 
+   <$>[warning]
+    **NOTE**: Cách này có thể dùng khi chỉ có 2 branch để dễ dàng chuyển sang cách branch dễ dàng hơn.
+   <$>
 
    <br>![chuyển branch cách 1](/chuy%E1%BB%83n%20branch%20c%C3%A1ch%201.jpg)
   
@@ -77,10 +78,9 @@
    ![Delete branch](/delete%20branch.jpg) </ol>
 
  2. **Git checkout** : chuyển sang các branch và phục hồi file ban đầu 
+    <br>Cách chuyển branch bạn có thể xem ở phần [`Git branch`](#)
 
-   Cách chuyển branch bạn có thể xem ở phần "git branch" 
-
-   Phục hồi file ban đầu 
+    <br> Phục hồi file ban đầu 
   <!-- <br> hình ảnh   -->
   
 
@@ -93,11 +93,11 @@
    <!-- <br> hình ảnh   -->
 
  4. **git log** : hiển thị danh sách đã commit 
-<br>- Cách dùng : gõ "$ git log "
+    <br>- Cách dùng : gõ "$ git log "
    
     Tương tự như hình :
 
-    <!-- <br> hình ảnh  -->
+   <!-- <br> hình ảnh  -->
 
 
  5. **git stash** : tạm dừng working ở branch này để chuyển sang branch khác 
@@ -113,9 +113,19 @@
        <!-- <br> hình ảnh  -->
 ## **Sharing and Updating Projects**   
 ***
-
-
-
+   1. **Git fetch** :  tải về dữ liệu từ Remote Repo . Git fetch cần khi bạn muốn tải remote để lưu trữ ở local . 
+   <br> Cách dùng : gõ "$ git fetch origin (name local)
+   <br> Tương tự như hình : 
+   <!-- <br> hình ảnh  -->
+   2. **Git pull** : 
+   <br> Cách dùng : 
+   <br> Tương tự như hình : 
+   <!-- <br> hình ảnh  -->
+   3. **Git push** :cập nhật những thay đổi working từ Local lên remote 
+   <br> Cách dùng : gõ "$ git push origin ( *This is your push* )
+   <br> Tương tự như hình : 
+   <!-- <br> hình ảnh  -->
+   4. **Git remote** : 
 
 
 
