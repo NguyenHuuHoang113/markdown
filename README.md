@@ -1,7 +1,7 @@
 # **GITHUB**
 
 ### ***Để biết github là gì ? và có những chức năng nào ? , các bạn có thể xem bài viết này***
-## **Setup**
+## **Setup and Config**
 ***
   1. **Github** là một web dùng để lưu trữ và kiểm tra trạng thái của repo ( repo là viết tắt của repository ).
   2. **Reporsitory** là kho lưu trữ dữ liệu .
@@ -52,7 +52,7 @@
 
    <br> + bạn có thể add 1 file bằng cách : *$ git add <new file>*
 
-    ![git add all](/
+    ![git add all](/git%20add%20(all).png)
 
    <br> + bạn có thể add tất cả các file bằng cách : *$ git add .*
    
@@ -64,9 +64,9 @@
    ![git commit](/git%20commit%20.png)
 
 4. **Git reset** : chuyển repo quay trở lại lần trước đó và xóa những thay đổi phía sau vị trí bạn muốn reset
-  <br> Cách dùng : gõ " *$ git reset* "
+  <br> Cách dùng : gõ " *$ git reset (id commit )* "
 
-  <!-- <br> hình ảnh  -->
+   ![git reset](/git%20reset.png)
 
 ## **Branching and Merging**
 ***
@@ -99,17 +99,23 @@
    2. **Git checkout** : chuyển sang các branch và phục hồi file ban đầu 
       <br>Cách chuyển branch bạn có thể xem ở phần [`Git branch`](#branching-and-merging)
 
-      <br> Phục hồi file ban đầu 
-    <!-- <br> hình ảnh   -->
+      <br> Phục hồi file ban đầu : 
+      <br> Cách dùng : gõ " % git checkout (id commit) " --> gõ " git switch -c (new branch name )
+
+      Tương tự như hình :
+      ![git checkout ](/git%20checkout%20.png)
+    
   
 
    3. **git merge** : dùng để nối các branch lại với nhau 
       <br> - For example : Bạn có 2 nhánh A và B , A là nhánh chính và B là nhánh phụ. Bạn cần cập nhật code từ nhánh B về nhánh A thì bạn cần chuyển về nhánh A và merge code từ nhánh A về nhánh B .
-      <br> - Cách dùng : gõ "$ git merge origin (nhánh cần merge)"
+      <br> - Cách dùng : gõ "$ git merge (name branch)"
+      <br> Như ví dụ : cũng ta sẽ gõ "$ git merge A 
       > NOTE : bạn cần phải commit và push nhánh chuẩn bị được merge sang trước khi merge
 
        Tương tự như hình ảnh sau : 
-   <!-- <br> hình ảnh   -->
+      
+      ![git merge](/git%20merge%20.png)
 
     4. **git log** : hiển thị danh sách đã commit 
       <br>- Cách dùng : gõ "$ git log "
@@ -127,29 +133,56 @@
 
        <br>![git stash](/git%20stash.png)
    
-       <br> - Và để quay trở lại working : gõ "$ git stash pop"
+       <br> - Và để quay trở lại working : gõ " $ git stash pop "
     
        Tương tự như hình :
        
        ![git stash](/git%20stash%20pop.png)
+
 ## **Sharing and Updating Projects**   
 ***
    1. **Git fetch** :  tải về dữ liệu từ Remote Repo . Git fetch cần khi bạn muốn tải remote để lưu trữ ở local . 
-   <br> Cách dùng : gõ "$ git fetch origin ( ***name local*** )
-   <br> Tương tự như hình : 
-   <!-- <br> hình ảnh  -->
+   <br> Cách dùng : 
+   <br>  gõ  " $ git fetch (repo url) "
+   
+      hoặc " $ git fetch --all  (cho phép tải tất cả dữ liệu)"
+
+      <br> Tương tự như hình : 
+
+      ![git fetch](/git%20url%20repo.png)
+
    2. **Git pull** : cập nhật dữ liệu từ remote về local
    <br> Cách dùng : $ git pull < remote > < branch >
    <br> Tương tự như hình : 
-   <!-- <br> hình ảnh  -->
+
+      ![git pull](/git%20pull%20.png )
+
    3. **Git push** : cập nhật những thay đổi working từ Local lên remote 
    <br> Cách dùng : gõ "$ git push < remote > < branch >
    <br> Tương tự như hình : 
-   <!-- <br> hình ảnh  -->
-   4. **Git remote** : 
+         
+      ![git push](/git%20push.png)
+
+   4. **Git remote** : dùng để quản lý lưu trữ branch trên repo 
    <br> Cách dùng : 
-   <br>Tương tự như hình :
-   <!-- hình ảnh  -->
+   <br> $ git remote rename (old name ) (new name ) {dùng để đổi trên cũ sang tên mới }
+
+       <br> $ git remote add <short name > <url repo > (thay thế url repo bằng tên ngắn)
+
+      <br>Tương tự như hình :
+
+      ![git remote](/git%20remote%20.png)
+
+## **Task of content** 
+***
+ *  [`Setup`](#setup-and-config)
+ *  [`Creating projects`](#creating-projects)
+ *  [`Basic Snapshotting`](#basic-snapshotting)
+ *  [`Branching and Merging`](#branching-and-merging)
+ *  [`Sharing and Updating Projects`](#sharing-and-updating-projects)
+
+ * Link bài viết :
+ <br> https://github.com/NguyenHuuHoang113/markdown
 
 
    
