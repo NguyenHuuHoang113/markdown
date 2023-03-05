@@ -175,7 +175,7 @@
 
 ## **Task of content** 
 ***
- *  [`Setup`](#setup-and-config)
+ *  [`Setup and Config`](#setup-and-config)
  *  [`Creating projects`](#creating-projects)
  *  [`Basic Snapshotting`](#basic-snapshotting)
  *  [`Branching and Merging`](#branching-and-merging)
