@@ -93,14 +93,13 @@
 
    <br>
 
-<<<<<<< HEAD
-   <code> 
-=======
+
    Add tất cả các file bằng cách : 
-   <code>$ git add .<code>
+   <code>
+      git add .
+   </code>
    
    ![git add all](/git%20add%20only%20file.png)
->>>>>>> 3c47739f9f2fd48c4511a0469552ec9c39e03608
 
        git add <new file>
 
