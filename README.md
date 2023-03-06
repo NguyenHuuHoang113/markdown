@@ -109,7 +109,7 @@
 
    Tương tự như hình :
 
-
+   
    ![git add all](/git%20add%20only%20file.png)
 
 
@@ -349,7 +349,9 @@
    <br>
 
    <code> 
-      git remote add <short name> <url repo>
+
+       git remote add <short name> <url repo>
+
    </code> 
 
       
