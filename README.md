@@ -1,42 +1,54 @@
-# **GITHUB**
+# **Introduction GITHUB**
+## **Task of content** 
+***
+ *  [`Setup and Config`](#setup-and-config)
+ *  [`Creating projects`](#creating-projects)
+ *  [`Basic Snapshotting`](#basic-snapshotting)
+ *  [`Branching and Merging`](#branching-and-merging)
+ *  [`Sharing and Updating Projects`](#sharing-and-updating-projects)
 
-### ***Để biết github là gì ? và có những chức năng nào ? , các bạn có thể xem bài viết này***
+ * Link bài viết :
+ <br> https://github.com/NguyenHuuHoang113/markdown
+
+
+
 ## **Setup and Config**
 ***
-  1. **Github** là một web dùng để lưu trữ và kiểm tra trạng thái của repo ( repo là viết tắt của repository ).
-  2. **Reporsitory** là kho lưu trữ dữ liệu .
-  <br>   Để tạo reporsitoy bạn cần :
-  <br> ![Tạo reporsitory!](/Screenshot%202023-02-27%20151732.png) 
-  <br > Tiếp theo điền tên reporsitory -> nhấn create reporsitory 
+  ### **Github** : a platform để lưu trữ version control và collaboration .
+
+  ### **Reporsitory** : kho lưu trữ dữ liệu .
+  
+  <br> Để tạo reporsitoy bạn cần : nhấn ***New*** -> Điền tên vào ***Repository name*** -> nhấn ***Create repository***  
   <br> ![Kết quả create repository !](/K%E1%BA%BFt%20qu%E1%BA%A3%20create%20repository.png)
 
-  3. **git config** là dùng để thiết lập name and email of user trong main configuration file . 
+  ### **Git config** : dùng để thiết lập name and email of user trong main configuration file .  
    <br> Cách dùng:
-       
-       
-       + $ git config --global user.name ( ***your name*** ) 
-        
-       + $ git config --global user.email ( ***your email*** )
-       
-       <br> Tương tự như hình :
+    <code> 
 
-        ![git config](/git%20config.png)          
-      <br> Bạn cần tạo 1 file " **README.md** " <br>
+       $ git config --global user.name (your name) 
+
+       $ git config --global user.email (your email)
+   </code>
+       
+   <br> Bạn cần tạo 1 file " **README.md** " <br>
    Cách tạo 
-    <br>![README,md](/Readme.md.png)
+    <br>![README.md](/Readme.md.png)
 ## **Creating projects**
 ***
- 1. **Git init** : tạo một repo trống 
-         <br> Để khởi chạy được ___git init___ :
-         <br> 1 . Cần tạo folder trên máy tính của mình <br> ![Tạo foder!](/Screenshot%202023-02-27%20153230.png)
-         <br>2 . Chúng ta vào foder và chạy foder bằng **git bash** 
+   ### **Git init** : tạo một repo trống 
+         
+   <br> Để khởi chạy được ___git init___ :
+
+   Bước 1 . Cần tạo folder trên máy tính của mình <br> ![Tạo foder!](/Screenshot%202023-02-27%20153230.png)
+   <br>Bước 2 . Chúng ta vào foder và chạy foder bằng **git bash** 
          <br>![Chạy foder bằng gitbash](/Screenshot%202023-02-27%20153255.png)
-      <br>3. Gõ $ git init để tạo một repo trống 
+   <br>Bước 3. Gõ $ git init để tạo một repo trống 
       <br> ![Chạy init!](/git%20init%20.png)
       
 
- 2. **Git Clone** : dùng để tạo quyền riêng tư cho repo của bạn , chỉ mình bạn có thể được xem và chỉnh sửa nó 
-      <br>![git clone](/git%20clone.png)
+#### **Git Clone** : dùng để tạo quyền riêng tư cho repo của bạn , chỉ mình bạn có thể được xem và chỉnh sửa nó 
+   Cách dùng : 
+     <br>  <code>$ git clone</code> 
 
 ## **Basic Snapshotting** 
 ***
@@ -175,7 +187,7 @@
 
 ## **Task of content** 
 ***
- *  [`Setup`](#setup-and-config)
+ *  [`Setup and Config`](#setup-and-config)
  *  [`Creating projects`](#creating-projects)
  *  [`Basic Snapshotting`](#basic-snapshotting)
  *  [`Branching and Merging`](#branching-and-merging)
