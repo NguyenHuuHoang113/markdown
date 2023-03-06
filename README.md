@@ -70,7 +70,8 @@
 
    <code>$ git add [ ***new file*** ]</code>
 
-   <br> + bạn có thể add tất cả các file bằng cách : *$ git add .*
+   Add tất cả các file bằng cách : 
+   <code>$ git add .<code>
    
    ![git add all](/git%20add%20only%20file.png)
 
