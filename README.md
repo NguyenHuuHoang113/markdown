@@ -91,27 +91,27 @@
 
    <br> Add 1 file bằng cách :
 
-   <br>
+   <code>      
+          git add <url>
 
+   </code>
+
+
+   <br>
 
    Add tất cả các file bằng cách : 
+
    <code>
+
       git add .
+
    </code>
-   
+
+   Tương tự như hình :
+
+
    ![git add all](/git%20add%20only%20file.png)
 
-       git add <new file>
-
-   </code>
-
-   Add tất cả các file bằng cách :
-   <br>
-   <code>
-
-      git add .
-
-   </code>
 
 ### **Git commit** : lưu lại thay đổi working
    <br>Cách dùng : 
@@ -349,9 +349,7 @@
    <br>
 
    <code> 
-
-       git remote add <short name> <url repo>
-
+      git remote add <short name> <url repo>
    </code> 
 
       
