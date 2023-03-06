@@ -33,10 +33,9 @@
    <br> Bạn cần tạo 1 file " **README.md** " <br>
    Cách tạo 
     <br>![README.md](/Readme.md.png)
-## **Creating projects**
-***
+
    ### **Git init** : tạo một repo trống 
-         
+
    <br> Để khởi chạy được ___git init___ :
 
    Bước 1 . Cần tạo folder trên máy tính của mình <br> ![Tạo foder!](/Screenshot%202023-02-27%20153230.png)
@@ -44,27 +43,32 @@
          <br>![Chạy foder bằng gitbash](/Screenshot%202023-02-27%20153255.png)
    <br>Bước 3. Gõ $ git init để tạo một repo trống 
       <br> ![Chạy init!](/git%20init%20.png)
-      
+   
 
-#### **Git Clone** : dùng để tạo quyền riêng tư cho repo của bạn , chỉ mình bạn có thể được xem và chỉnh sửa nó 
-   Cách dùng : 
-     <br>  <code>$ git clone</code> 
+## **Creating projects**
+   
+   #### **Git Clone** : dùng để tạo quyền riêng tư cho repo của bạn , chỉ mình bạn có thể được xem và chỉnh sửa nó 
+
+   Cách dùng :
+   <br>
+       <code>$ git clone</code> 
 
 ## **Basic Snapshotting** 
 ***
-1. **Git status** : kiểm tra trạng thái working 
-   <br> Cách dùng : gõ " *$ git status*
-   <br>![git status](/git%20status.png)
+### **Git status** : kiểm tra trạng thái  
+   Cách dùng : 
+   <br>
+      <code>*$ git status*</code> 
 
-2. **Git add** : Thêm file nội dung vào repo 
+### **Git add** : Thêm file nội dung vào repo 
    <br> For example : Ví dụ bạn add một hình ảnh vào folder và bạn muốn push nó lên repository bạn sẽ làm như này :
-    <br> 1. Thêm hình ảnh vào folder 
-   <br> 2. Kiểm tra trạng thái bằng cách gõ " *$ git status* "
-   <br> 3. Add file nội dụng vừa mới thêm :
+   <br> Bước 1. Thêm hình ảnh vào folder 
+   <br> Bước 2. Kiểm tra trạng thái bằng cách gõ " *$ git status* "
+   <br> Bước 3. Add file nội dụng vừa mới thêm :
 
-   <br> + bạn có thể add 1 file bằng cách : *$ git add <new file>*
+   Add 1 file bằng cách :
 
-    ![git add all](/git%20add%20(all).png)
+   <code>$ git add [ ***new file*** ]</code>
 
    <br> + bạn có thể add tất cả các file bằng cách : *$ git add .*
    
