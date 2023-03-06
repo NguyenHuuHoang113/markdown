@@ -120,9 +120,9 @@
   
 
    3. **git merge** : dùng để nối các branch lại với nhau 
-      <br> - For example : Bạn có 2 nhánh A và B , A là nhánh chính và B là nhánh phụ. Bạn cần cập nhật code từ nhánh B về nhánh A thì bạn cần chuyển về nhánh A và merge code từ nhánh A về nhánh B .
+      <br> - For example : Bạn có 2 nhánh A và B , A là nhánh chính và B là nhánh phụ. Bạn cần cập nhật code từ nhánh B về nhánh A thì bạn cần chuyển về nhánh A và merge code từ nhánh B về nhánh A.
       <br> - Cách dùng : gõ "$ git merge (name branch)"
-      <br> Như ví dụ : cũng ta sẽ gõ "$ git merge A 
+      <br> Như ví dụ : cũng ta sẽ gõ "$ git merge B
       > NOTE : bạn cần phải commit và push nhánh chuẩn bị được merge sang trước khi merge
 
        Tương tự như hình ảnh sau : 
